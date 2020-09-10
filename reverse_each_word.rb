@@ -17,7 +17,7 @@ def reverse_each_word(sentence)
   sentence_array.each do |word|
     reversed_array.push(reverse_string(word))
   end
-  reversed_sentence = reversed_array.join("")  
+  reversed_sentence = reversed_array.join(" ")  
   reversed_sentence
 end
     
